@@ -1,7 +1,6 @@
 # 🎮 Pokemon App - React Native Mobile
 
 ![React Native](https://img.shields.io/badge/React_Native-Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-blue?style=for-the-badge)
 
 > A beautiful, cross-platform Pokemon mobile application built with React Native and Expo. Features real-time Pokemon data, advanced search, and professional UI optimized for mobile devices.
