@@ -1,10 +1,10 @@
 # 🎮 Pokemon App - React Native Mobile
 
 ![React Native](https://img.shields.io/badge/React_Native-Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-blue?style=for-the-badge)
 
-> A beautiful, cross-platform Pokemon mobile application built with React Native and Expo. Features real-time Pokemon data, advanced search, and professional UI optimized for mobile devices.
+> A beautiful, cross-platform Pokemon mobile application built with React Native, Expo, and TypeScript. Features real-time Pokemon data, advanced search, and professional UI optimized for mobile devices.
 
 ## 📱 Features
 
@@ -36,7 +36,8 @@
 
 - **React Native** - Cross-platform mobile development
 - **Expo SDK 51+** - Managed workflow and development tools
-- **JavaScript/JSX** - Modern JavaScript with JSX syntax
+- **TypeScript** - Type safety and better developer experience
+- **TSX** - TypeScript with JSX for React components
 - **Expo Router** - File-based navigation system
 - **AsyncStorage** - Secure local data persistence
 - **React Native Safe Area Context** - Handle device safe areas
@@ -142,7 +143,7 @@ const handleLogin = async (email: string, password: string) => {
 ### Pokemon Data Integration
 ```typescript
 // Real-time Pokemon data fetching
-const fetchPokemons = async (offset = 0) => {
+const fetchPokemons = async (offset: number = 0) => {
   const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=21&offset=${offset}`);
   const data = await response.json();
   // Process and return Pokemon data
@@ -226,7 +227,7 @@ Contributions are welcome! Please follow these steps:
 5. Open a Pull Request
 
 ### Development Guidelines
-- Follow JavaScript ES6+ best practices
+- Follow TypeScript best practices
 - Test on both iOS and Android
 - Maintain consistent code formatting
 - Update documentation for new features
