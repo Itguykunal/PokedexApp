@@ -35,11 +35,13 @@
 
 - **React Native** - Cross-platform mobile development
 - **Expo SDK 51+** - Managed workflow and development tools
-- **TypeScript** - Type safety and better developer experience
+- **JavaScript/JSX** - Modern JavaScript with JSX syntax
 - **Expo Router** - File-based navigation system
 - **AsyncStorage** - Secure local data persistence
 - **React Native Safe Area Context** - Handle device safe areas
 - **React Hooks** - Modern state management (useState, useEffect)
+- **PokeAPI** - RESTful Pokemon data integration
+- **Fetch API** - HTTP requests for data fetching
 
 ## 🚀 Quick Start
 
